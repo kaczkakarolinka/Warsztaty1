@@ -19,7 +19,7 @@ header {
 }
 
 .container {
-    max-width: 1024px;
+    width: 1200px;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -147,14 +147,15 @@ a:first-child {
     position: absolute;
     font-size: 40px;
     top: -150px;
+    left: 20px;
 }
 
 .section1__text p {
     position: absolute;
     text-align: center;
     top: -100px;
-    left: -90px;
-    padding: 40px 60px;
+    left: -130px;
+    padding: 40px 100px;
 }
 
 .section1__button {
@@ -178,4 +179,115 @@ a:first-child {
     font-size: 100px;
     color: #00cca3;
     font-weight: 100;
+}
+
+/*SECTION 2*/
+
+.section2 .container {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.section2 {
+    height: 350px;
+}
+
+.picture_left {
+    width: 30%;
+    height: 225px;
+    background-image: url("../images/box1_img.jpg");
+    margin-top: 30px;
+    position: relative;
+}
+
+.picture_left>span {
+    background-color: rgba(255,255,255, 0.5);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+}
+
+.picture_left>span>p {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.picture_left>span>p:after {
+    content: '';
+    position: absolute;
+    background-color: #00cca3;
+    height: 8px;
+    width: 150px;
+    top: 20px;
+    left: 0;
+}
+
+.picture_right {
+    width: 30%;
+    height: 225px;
+    background-image: url("../images/box2_img.jpg");
+    margin-top: 30px;
+    position: relative;
+}
+
+.picture_right>span {
+    background-color: rgba(255,255,255, 0.5);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+}
+
+.picture_right>span>p {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.picture_right>span>p:after {
+    content: '';
+    position: absolute;
+    background-color: #00cca3;
+    height: 8px;
+    width: 150px;
+    top: 20px;
+    left: 0;
+}
+
+.section2__textbox {
+    width: 30%;
+    height: 225px;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+}
+
+.section2__textbox__text {
+    font-size: 14px;
+    color: grey;
+    padding: 0 10px;
+}
+
+.section2__textbox__title {
+    font-size: 18px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.section2__textbox__title:after {
+    content: '';
+    width: 160px;
+    height: 8px;
+    background-color: #00cca3;
+    position: absolute;
+    left: 10px;
+    top: 20px;
 }
