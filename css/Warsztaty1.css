@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../raleway/webfontkit-20190726-062252/raleway-regular-webfont.woff2') format('woff2'),
+    url('../raleway/webfontkit-20190726-062252/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ralewayregular, Arial, sans-serif;
+}
+
+/*HEADER MENU*/
+
+header {
+    background-color: black;
+    height: 40px;
+}
+
+.container {
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    color: white;
+}
+
+span {
+    color: #00cca3;
+}
+
+.header__menu__item {
+    display: inline;
+    padding-left: 15px;
+
+    font-weight: bold;
+}
+
+.header__menu__item:first-child:hover>#dropdown {
+    display: block;
+}
+
+.header__menu__item:first-child:hover>#dropdown:before {
+    display: block;
+}
+
+.header__menu__item:first-child:hover .triangle {
+    display: block;
+}
+
+.header__menu__item:first-child:hover .dropdown__item {
+    display: block;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: white;
+}
+
+a:first-child {
+    position: relative;
+}
+
+#dropdown {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#dropdown:before {
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 10px;
+    background-color: white;
+    left: 0;
+    top: 10px;
+}
+
+.triangle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    border-left: 10px solid transparent;
+    background-color: transparent;
+    z-index: 3;
+    left: 40%;
+}
+
+.dropdown__item {
+    width: 120px;
+    list-style-type: none;
+    padding-bottom: 8px;
+    position: relative;
+    top: 34px;
+    left: -25px;
+}
+
+.dropdown__item, .triangle, #dropdown:before, #dropdown {
+    display: none;
+}
+
+#dropdown a {
+
+}
+
+#dropdown>ul {
+    position: absolute;
+    height: 120px;
+    width: 150px;
+}
+
+/* SECTION 1 */
+
+.section1 {
+    background: rgb(194,194,194);
+    background: linear-gradient(0deg, rgba(194,194,194,1) 0%, rgba(224,224,224,1) 46%, rgba(255,255,255,1) 100%);
+    height: 400px;
+}
