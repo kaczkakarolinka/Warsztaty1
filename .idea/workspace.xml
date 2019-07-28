@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warsztaty1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+            <state relative-caret-position="274">
+              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/Warsztaty1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="589" column="18" lean-forward="true" selection-start-line="589" selection-start-column="18" selection-end-line="589" selection-end-column="18" />
+            <state relative-caret-position="429">
+              <caret line="661" column="17" lean-forward="true" selection-start-line="661" selection-start-column="17" selection-end-line="661" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Warsztaty1.css" />
-        <option value="$PROJECT_DIR$/css/Warsztaty1.css" />
         <option value="$PROJECT_DIR$/Warsztaty1.html" />
+        <option value="$PROJECT_DIR$/css/Warsztaty1.css" />
       </list>
     </option>
   </component>
@@ -81,6 +81,11 @@
               <item name="Warsztaty1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Warsztaty1" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Warsztaty1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Warsztaty1" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,12 +124,12 @@
       <updated>1564135577798</updated>
       <workItem from="1564135579730" duration="13413000" />
       <workItem from="1564153014611" duration="43000" />
-      <workItem from="1564315633630" duration="7429000" />
+      <workItem from="1564315633630" duration="10653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20885000" />
+    <option name="totallyTimeSpent" value="24109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -142,7 +147,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -154,17 +159,17 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Warsztaty1.css" />
-    <entry file="file://$PROJECT_DIR$/css/Warsztaty1.css">
+    <entry file="file://$PROJECT_DIR$/Warsztaty1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="589" column="18" lean-forward="true" selection-start-line="589" selection-start-column="18" selection-end-line="589" selection-end-column="18" />
+        <state relative-caret-position="274">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty1.html">
+    <entry file="file://$PROJECT_DIR$/css/Warsztaty1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+        <state relative-caret-position="429">
+          <caret line="661" column="17" lean-forward="true" selection-start-line="661" selection-start-column="17" selection-end-line="661" selection-end-column="17" />
         </state>
       </provider>
     </entry>

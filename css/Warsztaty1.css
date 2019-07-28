@@ -23,7 +23,6 @@ header {
     height: 100%;
     margin: 0 auto;
     position: relative;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -425,7 +424,7 @@ a:first-child {
     top: -6px;
 }
 
-button {
+#dolacz {
     background-color: #00cca3;
     color: white;
     border-radius: 10%;
@@ -596,3 +595,73 @@ textarea {
     color: lightgrey;
 }
 
+.form__rest {
+    position: relative;
+    width: 40%;
+}
+
+.form__image {
+    position: absolute;
+    background-image: url("../images/red_chair.png");
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 60px;
+    top: -230px;
+}
+
+.form__rest p {
+    position: absolute;
+    left: 130px;
+    top: 0px;
+    font-size: 20px;
+    color: grey;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 30px;
+    top: 20px;
+}
+
+#send {
+    background-color: #00cca3;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 40px;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 100px;
+}
+
+.footer__icons {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.footer__title {
+    color: grey;
+    padding-left: 40px;
+}
+
+.icons {
+    width: 35px;
+    height: 35px;
+}
+
+.copyright {
+    color: grey;
+}
