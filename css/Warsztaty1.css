@@ -291,3 +291,308 @@ a:first-child {
     left: 10px;
     top: 20px;
 }
+
+/*SECTION 3*/
+
+.section3 {
+    background-color: #ededed;
+    height: 100px;
+}
+
+.section3__title {
+    color: grey;
+    position: relative;
+}
+
+.section3__title:after {
+    content: '';
+    background-color: #00cca3;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+/*SECTION 4*/
+
+.section4 {
+    background-color: #ededed;
+    height: 500px;
+}
+
+.box_one {
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.box_one > h1 {
+    color: #00cca3;
+}
+
+.box_one>h1:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border: 10px solid white;
+    border-radius: 50px;
+    position: absolute;
+    left: 130px;
+    top: -20px;
+    box-shadow: 0 0 0 1px lightgray;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: relative;
+}
+
+.circle>#p1 {
+    color: grey;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.circle>#p2 {
+    color:grey;
+    position: absolute;
+    left: 65px;
+    top: -5px;
+}
+
+.circle>#p3 {
+    color: grey;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.firststripe {
+    height: 35px;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 20px;
+    position: relative;
+}
+
+.firststripe>p {
+    position: absolute;
+    color: grey;
+    left: 60px;
+    top: -6px;
+}
+
+.secondstripe {
+    height: 35px;
+    width: 100%;
+    background-color: #e8e9eb;
+    position: relative;
+}
+
+.secondstripe>p {
+    position: absolute;
+    color: grey;
+    left: 120px;
+    top: -6px;
+}
+
+.stripefirst {
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+}
+
+.stripefirst>p {
+    position: absolute;
+    color: grey;
+    left: 60px;
+    top: -6px;
+}
+
+button {
+    background-color: #00cca3;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+}
+
+#secondbox__button {
+    background-color: white;
+    color: #00cca3;
+    border-radius: 10%;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+}
+
+.box_two {
+    height: 400px;
+    width: 300px;
+    border: 1px solid #00cca3;
+    background-color: #00cca3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.box_two>h1 {
+    color: white;
+    position: relative;
+}
+
+.box_two>h1:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 10px solid #00cca3;
+    border-radius: 50px;
+    position: absolute;
+    left: 40%;
+    top: -40px;
+}
+
+.thirdstripe {
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.thirdstripe>p {
+    color: gray;
+    left: 90px;
+    top: -6px;
+    position: absolute;
+}
+
+.stripethird {
+    height: 35px;
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+}
+
+.stripethird>p {
+    color: gray;
+    left: 90px;
+    top: -6px;
+    position: absolute;
+}
+
+.box_three {
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.box_three>h1 {
+    color: #00cca3;
+}
+
+.box_three>h1:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border: 10px solid white;
+    border-radius: 50px;
+    position: absolute;
+    left: 130px;
+    top: -20px;
+    box-shadow: 0 0 0 1px lightgray;
+}
+
+.forthstripe {
+    height: 35px;
+    width: 100%;
+    background-color:  #e8e9eb;
+    position: relative;
+}
+
+.forthstripe>p {
+    color: gray;
+    left: 80px;
+    top: -6px;
+    position: absolute;
+}
+
+/*SECTION 5*/
+
+.kontakt {
+    color: grey;
+}
+
+.section5 {
+    position: relative;
+}
+
+.kontakt:after {
+    content: '';
+    background-color: #00cca3;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+/*SECTION 6*/
+
+.section6 {
+    height: 500px;
+}
+
+.formularz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    border: 1px solid #00cca3;
+    width: 600px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    border: 1px solid #00cca3;
+    width: 600px;
+    height: 150px;
+    resize: none;
+}
+
+::placeholder {
+    font-size: 30px;
+    color: lightgrey;
+}
+
