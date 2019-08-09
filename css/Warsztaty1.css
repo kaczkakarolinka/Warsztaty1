@@ -85,13 +85,13 @@ a:first-child {
     height: 10px;
     background-color: white;
     left: 0;
-    top: 10px;
+    top: 11px;
 }
 
 .triangle {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     border-top: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
@@ -424,7 +424,18 @@ a:first-child {
     top: -6px;
 }
 
-#dolacz {
+#firstbox_button {
+    background-color: #00cca3;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+}
+
+#thirdbox_button {
     background-color: #00cca3;
     color: white;
     border-radius: 10%;
