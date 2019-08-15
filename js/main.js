@@ -24,8 +24,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    var pictureLeft = document.querySelector(".picture_left");
+    var spanClare = pictureLeft.querySelector("span");
+    var pictureRight = document.querySelector(".picture_right");
+    var spanMargarita = pictureRight.querySelector("span");
+    console.log(spanClare, spanMargarita);
 
+    pictureLeft.addEventListener("mouseover", function () {
+        spanClare.style.display = "none";
+    });
 
+    pictureLeft.addEventListener("mouseout", function () {
+        spanClare.style.display = "block";
+    });
 
+    pictureRight.addEventListener("mouseover", function () {
+        spanMargarita.style.display = "none";
+    });
+
+    pictureRight.addEventListener("mouseout", function () {
+        spanMargarita.style.display = "block";
+    });
 
 });
