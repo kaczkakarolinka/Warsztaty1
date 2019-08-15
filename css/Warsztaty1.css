@@ -43,21 +43,21 @@ span {
     font-weight: bold;
 }
 
-.header__menu__item:first-child:hover>#dropdown {
-    display: block;
-}
+/*.header__menu__item:first-child:hover>#dropdown {*/
+/*    display: block;*/
+/*}*/
 
 .header__menu__item:first-child:hover>#dropdown:before {
     display: block;
 }
 
-.header__menu__item:first-child:hover .triangle {
-    display: block;
-}
+/*.header__menu__item:first-child:hover .triangle {*/
+/*    display: block;*/
+/*}*/
 
-.header__menu__item:first-child:hover .dropdown__item {
-    display: block;
-}
+/*.header__menu__item:first-child:hover .dropdown__item {*/
+/*    display: block;*/
+/*}*/
 
 .header__menu a {
     text-decoration: none;
@@ -82,7 +82,7 @@ a:first-child {
     position: absolute;
     content: '';
     width: 120px;
-    height: 10px;
+    height: 9px;
     background-color: white;
     left: 0;
     top: 11px;
@@ -90,8 +90,8 @@ a:first-child {
 
 .triangle {
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     border-top: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
@@ -122,6 +122,7 @@ a:first-child {
     position: absolute;
     height: 120px;
     width: 150px;
+    z-index: 99;
 }
 
 /* SECTION 1 */
