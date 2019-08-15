@@ -46,4 +46,33 @@ document.addEventListener("DOMContentLoaded", function () {
         spanMargarita.style.display = "block";
     });
 
+    var prev = document.querySelector(".prev");
+    var next = document.querySelector(".next");
+    var section1 = document.querySelector(".section1");
+    var sliderElements = section1.querySelectorAll("li");
+    var index = 0;
+
+    for (var i=0; i<sliderElements.length; i++) {
+        sliderElements[index].classList.add("visible");
+    }
+
+    prev.addEventListener("click", function () {
+        sliderElements[index].classList.remove("visible");
+        index -= 1;
+        if (index < 0) {
+            index = sliderElements.length - 1;
+        }
+        sliderElements[index].classList.add("visible");
+    });
+
+    next.addEventListener("click", function () {
+        sliderElements[index].classList.remove("visible");
+        index += 1;
+        if (index >= listElements.length - 1) {
+            index = 0;
+        }
+        sliderElements[index].classList.add("visible");
+    });
 });
+
+

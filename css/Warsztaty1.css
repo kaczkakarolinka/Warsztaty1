@@ -127,9 +127,10 @@ a:first-child {
 
 /* SECTION 1 */
 
-.section1 > .container {
+li {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .section1 {
@@ -140,28 +141,28 @@ a:first-child {
 
 .section1__text {
     width: 49%;
-    position: relative;
 }
 
 .section1__title {
     position: absolute;
-    font-size: 40px;
-    top: -150px;
-    left: 20px;
+    font-size: 35px;
+    top: 5rem;
+    left: 40rem;
 }
 
 .section1__text p {
     position: absolute;
-    text-align: center;
-    top: -100px;
-    left: -130px;
-    padding: 40px 100px;
+    margin: 30px 120px;
+    left: 30rem;
+    top: 10rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
 }
 
 .section1__button {
     position: absolute;
-    top: 70px;
-    left: 18%;
+    top: 23rem;
+    left: 43rem;
     background-color: #00cca3;
     color: white;
     width: 200px;
@@ -172,13 +173,34 @@ a:first-child {
 }
 
 .blackchair {
-    width: 49%;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
 }
 
 .arrow {
     font-size: 100px;
     color: #00cca3;
     font-weight: 100;
+    border: none;
+    background-color: transparent;
+}
+
+.arrow:hover {
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.slider li {
+    display: none;
+}
+
+.slider .visible {
+    display: inline-block;
 }
 
 /*SECTION 2*/
